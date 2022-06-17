@@ -1,15 +1,22 @@
 import React from 'react'
+import { EverythingData } from '../Data/indexdata'
 import { Link } from 'react-router-dom'
-//import { Route, Routes } from 'react-router-dom'
 import { useState, useEffect } from 'react'
-import { womenData } from '../Data/indexdata'
-export const Womenwear = () => {
+export const Everything = () => {
+
   const [data, setData] = useState([])
 
 
-  const handleSort = (e) => {
 
-    let data2 = womenData.sort((a, b) => {
+
+
+
+
+  const handleSort = (e) => {
+    // console.log(e)
+
+
+    let data2 = EverythingData.sort((a, b) => {
 
       if (e === 'lowest') {
         return a.price - b.price;
@@ -162,12 +169,13 @@ export const Womenwear = () => {
 
         <div >
 
+
           <div className="bg-white">
             <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
               {/* <h2 className="sr-only">Products</h2> */}
 
               <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
-                {womenData.map((product) => (
+                {EverythingData.map((product) => (
                   <a key={product.id} href={product.href} className="group">
                     <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
                       <img
@@ -185,9 +193,8 @@ export const Womenwear = () => {
             </div>
 
 
-
           </div>
-          
+         
 
         </div>
         <div className='mens-sort'>

@@ -11,9 +11,9 @@ export const Navbar = () => {
 <header class="text-gray-600 body-font">
   <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
-      <Link to='' class="mr-5 hover:text-gray-900">MENSWEAR</Link>
-      <Link to='' class="mr-5 hover:text-gray-900">WOMENWEAR</Link>
-      <Link to='' class="mr-5 hover:text-gray-900">EVERYTHING ELSE</Link>
+      <Link to='/Men' class="mr-5 hover:text-gray-900">MENSWEAR</Link>
+      <Link to='/Women' class="mr-5 hover:text-gray-900">WOMENWEAR</Link>
+      <Link to='/Everything' class="mr-5 hover:text-gray-900">EVERYTHING ELSE</Link>
       <Link to='' class="hover:text-gray-900">SEARCH</Link>
     </nav>
     <Link to='/' class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
@@ -33,7 +33,7 @@ export const Navbar = () => {
       </button> */}
        <nav class="flex  flex-wrap items-center text-base md:ml-auto">
        <Link to='' class="mr-5 hover:text-gray-900">ENGLISH</Link>
-       <Link to='' class="mr-5 hover:text-gray-900">LOGIN</Link>
+       <Link to='/login' class="mr-5 hover:text-gray-900">LOGIN</Link>
        <Link to='' class="mr-5 hover:text-gray-900">WISHLIST</Link>
        <Link to='' class="hover:text-gray-900">SHOPPING BAG</Link>
     </nav>
