@@ -1,20 +1,22 @@
 import React, { useState } from 'react'
 import "./menswear.css"
-import {mensData} from '../Data/indexdata'
-import { useNavigate } from 'react-router-dom'
-
+import {salesData} from '../Data/indexdata'
+import { Link } from 'react-router-dom'
 //import { Route, Routes } from 'react-router-dom'
 
-export const Menswear = () => {
+export const Sales = () => {
   const [data,setData] = useState([])
   
-
+  const handleClick=(e)=>{
+    localStorage.setItem("productdes",JSON.stringify(e));
+  }
+ 
     
     const handleSort = (e) => {
        // console.log(e)
        
         
-        let data2 = mensData.sort((a, b) => {
+        let data2 = salesData.sort((a, b) => {
         
         if (e === 'lowest')
          { return a.price - b.price;
@@ -26,13 +28,7 @@ export const Menswear = () => {
        setData([...data2])
       
     }
-    const navigate=useNavigate()
-    const handleClick=(e)=>{
-      
-      localStorage.setItem("productdes",JSON.stringify(e));
-      navigate("/productDescription")
-     
-    }
+    
    
 
   return (
@@ -182,9 +178,9 @@ export const Menswear = () => {
         {/* <h2 className="sr-only">Products</h2> */}
 
         <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
-          {mensData.map((product) => (
+          {salesData.map((product) => (
             <a key={product.id} href={product.href} className="group">
-              <div onClick={()=>handleClick(product)} className="w-full aspect-w-1 cursor-pointer aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
+              <div onClick={()=>handleClick(product)} className="w-full cursor-pointer aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
                 <img
                   src={product.itemImg}
                   alt={product.imageAlt}
@@ -211,8 +207,8 @@ export const Menswear = () => {
                     </div>
                      <div className="mens-category-list">
                       
-                            <ul> Latest arrivals</ul>
-                            <ul> Trending</ul>
+                            {/* <ul> Latest arrivals</ul>
+                            <ul> Trending</ul> */}
                             <ul onClick={()=>handleSort("lowest")} value="lowest"> Price: Low to high</ul>
                             <ul onClick={()=>handleSort("highest")} value="highest"> Price: High to low </ul>
                     </div> 

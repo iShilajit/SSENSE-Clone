@@ -7,7 +7,10 @@ export const Everything = () => {
   const [data, setData] = useState([])
 
 
-
+  const handleClick=(e)=>{
+    localStorage.setItem("productdes",JSON.stringify(e));
+  }
+ 
 
 
 
@@ -177,7 +180,7 @@ export const Everything = () => {
               <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
                 {EverythingData.map((product) => (
                   <a key={product.id} href={product.href} className="group">
-                    <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
+                    <div onClick={()=>handleClick(product)} className="w-full cursor-pointer aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
                       <img
                         src={product.itemImg}
                         alt={product.imageAlt}

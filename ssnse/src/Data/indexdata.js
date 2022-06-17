@@ -810,9 +810,220 @@ export const EverythingData=[
 export const salesData=[
     {
         id:"s1",
-        itemImg:"",
-        title:"",
-        des:"",
-        price:""
+        itemImg:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_1086,w_724/c_scale,h_480/f_auto,q_auto/211573M489001_1/anissa-kermiche-black-ceramic-love-handles-vase.jpg",
+        title:"ANISSA KERMICHE",
+        des:"Black Ceramic Love Handles Vase",
+        price:"225"
     },
+    {
+        id:"s2",
+        itemImg:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_1086,w_724/c_scale,h_480/f_auto,q_auto/212770M641002_1/master-and-dynamic-black-mw08-sport-active-noise-cancelling-earphones.jpg",
+        title:"MASTER & DYNAMIC",
+        des:"Black MW08 Sport Active Noise-Cancelling Earphones",
+        price:"305"
+    }
+    ,
+    {
+        id:"s3",
+        itemImg:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_1086,w_724/c_scale,h_480/f_auto,q_auto/212655M679007_1/themskates-black-and-blue-them-909-marius-gaile-complete-pro-roller-blades.jpg",
+        title:"THEM SKATES",
+        des:"Black & Blue Them 909 Marius Gaile Complete Pro Roller Blades",
+        price:"320"
+    },
+    {
+        id:"s4",
+        itemImg:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_1086,w_724/c_scale,h_480/f_auto,q_auto/221111M624000_1/carhartt-work-in-progress-black-and-white-whisper-blanket.jpg",
+        title:"CARHARTT WORK IN PROGRESS",
+        des:"Black & White Whisper Blanket",
+        price:"180"
+    },
+    {
+        id:"s5",
+        itemImg:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_1086,w_724/c_scale,h_480/f_auto,q_auto/212419M678056_1/snow-peak-silver-home-and-camp-burner.jpg",
+        title:"SNOW PEAK",
+        des:"Silver Home & Camp Burner",
+        price:"98"
+    },
+    {
+        id:"s6",
+        itemImg:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_1086,w_724/c_scale,h_480/f_auto,q_auto/221607M625001_1/off-white-blue-and-white-arrows-small-cushion.jpg",
+        title:"OFF-WHITE",
+        des:"Blue & White Arrows Small Cushion",
+        price:"256"
+    },
+    {
+        id:"s7",
+        itemImg:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_1086,w_724/c_scale,h_480/f_auto,q_auto/211033M489055_1/carne-bollente-black-and-blue-into-the-squirt-towel.jpg",
+        title:"CARNE BOLLENTE",
+        des:"Black & Blue Into The Squirt Towel",
+        price:"63"
+    },
+    {
+        id:"s8",
+        itemImg:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_1086,w_724/c_scale,h_480/f_auto,q_auto/212756M615005_1/new-tendency-green-meta-side-table.jpg",
+        title:"NEW TENDENCY",
+        des:"Green Meta Side Table",
+        price:"328"
+    },
+    {
+        id:"s9",
+        itemImg:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_1086,w_724/c_scale,h_480/f_auto,q_auto/221856M707021_1/adidas-kids-kids-white-and-green-stan-smith-velcro-little-kids-sneakers.jpg",
+        title:"ADIDAS KIDS",
+        des:"Kids White & Green Stan Smith Velcro Little Kids Sneakers",
+        price:"43"
+    },
+    {
+        id:"s10",
+        itemImg:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_1086,w_724/c_scale,h_480/f_auto,q_auto/221376M701011_1/burberry-kids-beige-check-quilted-jacket.jpg",
+        title:"BURBERRY",
+        des:"Kids Beige Check Quilted Jacket",
+        price:"330"
+    },
+    {
+        id:"s11",
+        itemImg:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_1086,w_724/c_scale,h_480/f_auto,q_auto/212655M679002_1/themskates-blue-brain-dead-edition-them-909-complete-inline-skates.jpg",
+        title:"THEM SKATES",
+        des:"Blue Brain Dead Edition Them 909 Complete Inline Skates",
+        price:"227"
+    },
+    {
+        id:"s12",
+        itemImg:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_1086,w_724/c_scale,h_480/f_auto,q_auto/222419M678005_1/snow-peak-grey-titanium-aurora-bottle-800-ml.jpg",
+        title:"SNOW PEAK",
+        des:"Grey Titanium Aurora Bottle, 800 mL",
+        price:"93"
+    },
+    {
+        id:"s13",
+        itemImg:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_1086,w_724/c_scale,h_480/f_auto,q_auto/211404M601005_1/versace-black-barocco-robe.jpg",
+        title:"VERSACE",
+        des:"Black Barocco Robe",
+        price:"166"
+    },
+    {
+        id:"s14",
+        itemImg:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_1086,w_724/c_scale,h_480/f_auto,q_auto/211168M148160_1/maison-margiela-black-leather-desk-pad.jpg",
+        title:"MAISON MARGIELA",
+        des:"Black Leather Desk Pad",
+        price:"473"
+    },
+    {
+        id:"s15",
+        itemImg:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_1086,w_724/c_scale,h_480/f_auto,q_auto/221404M624000_1/versace-gold-la-coup-des-dieux-blanket.jpg",
+        title:"VERSACE",
+        des:"Gold 'La Coup Des Dieux' Blanket",
+        price:"847"
+    },
+    {
+        id:"s16",
+        itemImg:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_1086,w_724/c_scale,h_480/f_auto,q_auto/221376M698000_1/burberry-baby-beige-vintage-check-pre-walkers.jpg",
+        title:"BURBERRY",
+        des:"Baby Beige Vintage Check Pre-Walkers",
+        price:"109"
+       
+    },
+    {
+        id:"s17",
+        itemImg:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_1086,w_724/c_scale,h_480/f_auto,q_auto/221445M707074_1/jordan-baby-black-jordan-5-retro-ps-sneakers.jpg",
+        title:"NIKE JORDAN",
+        des:"Baby Black Jordan 5 Retro PS Sneakers",
+        price:"70"
+    },
+    {
+        id:"s18",
+        itemImg:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_1086,w_724/c_scale,h_480/f_auto,q_auto/221546M645000_1/bape-brown-faux-fur-baby-milo-phone-pouch.jpg",
+       
+        title:"BAPE",
+        des:"Brown Faux-Fur Baby Milo Phone Pouch",
+        price:"30"
+    },
+    {
+        id:"s19",
+        itemImg:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_1086,w_724/c_scale,h_480/f_auto,q_auto/211554M000027_1/museum-of-peace-and-quiet-ssense-exclusive-beige-and-black-woodmark-door-mat.jpg",
+        
+        title:"MUSEUM OF PEACE & QUIET",
+        des:"SSENSE Exclusive Beige & Black Woodmark Door Mat",
+        price:"83"
+    },
+    {
+        id:"s20",
+        itemImg:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_1086,w_724/c_scale,h_480/f_auto,q_auto/212948M620000_1/wacko-maria-black-maria-incense-holder.jpg",
+        title:"WACKO MARIA",
+        des:"Black Maria Incense Holder",
+        price:"207"
+       
+    },
+    {
+        id:"s21",
+        itemImg:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_1086,w_724/c_scale,h_480/f_auto,q_auto/211554M000025_1/museum-of-peace-and-quiet-ssense-exclusive-green-kindle-wordmark-mug.jpg",
+        title:"MUSEUM OF PEACE & QUIET",
+        des:"SSENSE Exclusive Green Kindle Wordmark Mug",
+        price:"28"
+    },
+    {
+        id:"s22",
+        itemImg:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_1086,w_724/c_scale,h_480/f_auto,q_auto/212013M678000_1/oakley-black-flight-deck-l-snow-goggles.jpg",
+        title:"OAKLEY",
+        des:"Black Flight Deck L Snow Goggles",
+        price:"129"
+    },
+    {
+        id:"s23",
+        itemImg:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_1086,w_724/c_scale,h_480/f_auto,q_auto/221379M642004_1/marni-white-logo-airpods-case.jpg",
+        title:"MARNI",
+        des:"White Logo AirPods Case",
+        price:"150"
+    },
+    {
+        id:"s24",
+        itemImg:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_1086,w_724/c_scale,h_480/f_auto,q_auto/221798M645000_1/bottega-veneta-green-intreccio-iphone-13-pro-case.jpg",
+        title:"BOTTEGA VENETA",
+        des:"Green Intreccio iPhone 13 Pro Case",
+        price:"128"
+    }
+    ,
+    {
+        id:"s25",
+        itemImg:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_1086,w_724/c_scale,h_480/f_auto,q_auto/221546M628000_1/bape-pink-baby-milo-towel.jpg",
+        title:"BAPE",
+        des:"Pink Baby Milo Towel",
+        price:"38"
+    },
+    {
+        id:"s26",
+        itemImg:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_1086,w_724/c_scale,h_480/f_auto,q_auto/221379M645019_1/marni-black-and-green-logo-phone-holder.jpg",
+        title:"MARNI",
+        des:"Black & Green Logo Phone Holder",
+        price:"273"
+    },
+    {
+        id:"s27",
+        itemImg:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_1086,w_724/c_scale,h_480/f_auto,q_auto/221607M628000_1/off-white-beige-and-brown-arrow-pattern-towel-set.jpg",
+        title:"OFF-WHITE",
+        des:"Beige & Brown Arrow Pattern Towel Set",
+        price:"117"
+    },
+    {
+        id:"s28",
+        itemImg:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_1086,w_724/c_scale,h_480/f_auto,q_auto/221607M707006_1/off-white-kids-black-vulcanized-sneakers.jpg",
+        title:"OFF-WHITE",
+        des:"Kids Black Vulcanized Sneakers",
+        price:"168"
+    },
+    {
+        id:"s29",
+        itemImg:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_1086,w_724/c_scale,h_480/f_auto,q_auto/221546M626004_1/bape-brown-and-orange-baby-milo-rug.jpg",
+        title:"BAPE",
+        des:"Brown & Orange Baby Milo Rug",
+        price:"150"
+    }
+    ,
+    {
+        id:"s30",
+        itemImg:"https://img.ssensemedia.com/images/b_white,c_lpad,g_south,h_1086,w_724/c_scale,h_480/f_auto,q_auto/212249M000589_1/jil-sander-ssense-exclusive-orange-mohair-blanket.jpg",
+        title:"JIL SANDER",
+        des:"SSENSE Exclusive Orange Mohair Blanket",
+        price:"561"
+    }
+    
 ]
