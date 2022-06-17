@@ -28,32 +28,34 @@ export const Login = () => {
  
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios
-      .post("https://ssense-api.herokuapp.com/login", user
-        // email: user.email,
-        // password: user.password,
-      )
-      .then((res) => {
-        localStorage.setItem("loginUser", JSON.stringify(res.data));
-        console.log("data",res.data)
-        dispatch(isLogin(res.data));
-        setTimeout(() => {
-          Navigate("/");
-        }, 1000);
-        setUser({
-          email: "",
-          password: "",
-        });
+    alert("Login Successfull !!!")
+         Navigate("/");
+    // axios
+    //   .post("https://ssense-api.herokuapp.com/login", user
+    //     // email: user.email,
+    //     // password: user.password,
+    //   )
+    //   .then((res) => {
+    //     localStorage.setItem("loginUser", JSON.stringify(res.data));
+    //     console.log("data",res.data)
+    //     dispatch(isLogin(res.data));
+    //     setTimeout(() => {
+    //       Navigate("/");
+    //     }, 1000);
+    //     setUser({
+    //       email: "",
+    //       password: "",
+    //     });
      
-         alert("Login Successfull !!!")
-          
-      })
-      .catch((e) => {
+    //      alert("Login Successfull !!!")
+    //      Navigate("/");
+    //   })
+    //   .catch((e) => {
        
-        alert("Login Failed !!!")
+    //     alert("Login Failed !!!")
           
-        Navigate("/register");
-      });
+    //     Navigate("/");
+    //   });
   };
   return (
     <div className="login">
@@ -133,31 +135,7 @@ export const Login = () => {
               Login
             </button>
 
-            {/* <div>or</div>
-            <Button
-              mt="20px"
-              w="100%"
-              borderColor="#ccd0d5"
-              colorScheme="RGBA(0, 0, 0, 0.92)"
-              _focus={{
-                boxShadow:
-                  "0 0 1px 2px rgba(88, 144, 255, .75), 0 1px 1px rgba(0, 0, 0, .15)",
-              }}
-              transform="scale(0.98)"
-              background="#000000"
-              width="200px"
-              _hover={{
-                bg: "#f5f6f7",
-                background: "RGBA(0, 0, 0, 0.80)",
-                transform: "scale(0.98)",
-              }}
-              //  onClick={
-              // window.location.href = "./register"
-
-              //  }
-            >
-              Signup
-            </Button> */}
+           
           </form>
         </div>
     
